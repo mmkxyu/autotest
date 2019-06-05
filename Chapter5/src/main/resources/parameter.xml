@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parameter">
+    <test name="param">
+        <classes>
+            <class name="com.course.testng.paramter.ParameterTest"/>
+            <parameter name="username" value="yumeiling"/>
+            <parameter name="password" value="123456"/>
+        </classes>
+    </test>
+</suite>
