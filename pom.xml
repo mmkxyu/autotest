@@ -3,6 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.0.RELEASE</version>
+    </parent>
 
     <groupId>com.course.test</groupId>
     <artifactId>AutoTest</artifactId>
@@ -10,6 +15,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Chapter5</module>
+        <module>Chapter6</module>
+        <module>Chapter9</module>
+        <module>Chapter10</module>
+        <module>Chapter11</module>
+        <module>Chapter12</module>
+        <module>Chapter13</module>
     </modules>
 
     <dependencies>
